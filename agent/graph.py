@@ -12,6 +12,8 @@ Builds the complete state machine that orchestrates:
 - Conversation memory
 """
 
+from __future__ import annotations
+
 from langgraph.graph import END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
 

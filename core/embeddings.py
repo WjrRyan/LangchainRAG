@@ -2,6 +2,8 @@
 Embedding model wrapper for Google Generative AI Embeddings.
 """
 
+from __future__ import annotations
+
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 from config import GOOGLE_API_KEY, EMBEDDING_MODEL

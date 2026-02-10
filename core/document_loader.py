@@ -2,6 +2,8 @@
 Multi-format document loader supporting PDF, Markdown, and CSV files.
 """
 
+from __future__ import annotations
+
 from pathlib import Path
 
 from langchain_core.documents import Document

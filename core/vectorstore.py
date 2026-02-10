@@ -2,6 +2,8 @@
 ChromaDB vector store management.
 """
 
+from __future__ import annotations
+
 from pathlib import Path
 
 from langchain_chroma import Chroma

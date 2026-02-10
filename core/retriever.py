@@ -2,6 +2,8 @@
 Retriever wrapper with configurable search strategies.
 """
 
+from __future__ import annotations
+
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 

@@ -2,6 +2,8 @@
 LLM wrapper for Google Gemini via LangChain.
 """
 
+from __future__ import annotations
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE

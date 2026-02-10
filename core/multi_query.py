@@ -3,6 +3,8 @@ Multi-Query retrieval: generate multiple sub-queries from different angles
 and merge deduplicated results to improve recall.
 """
 
+from __future__ import annotations
+
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
